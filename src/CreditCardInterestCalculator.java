@@ -15,6 +15,8 @@ public class CreditCardInterestCalculator {
 
         // Calculate interest after second month
         double interestMonth2 = balance * monthlyInterestRate;
+
+        // Output statement
         System.out.println("Interest after two months: $" + String.format("%.2f", interestMonth1 + interestMonth2));
     }
 }
